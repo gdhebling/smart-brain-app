@@ -18,6 +18,7 @@ You can find the deployed website at https://gdhebling.github.io/smart-brain-app
 ### Process
 
 This is a work in progress. Next step is to implement a database.
+
 <br /><br />
 
 ## That's it!
