@@ -7,7 +7,7 @@ export const Rank = ({ name, entries }) => {
     <div>
       <div className="white f3">
         {`Hi, ${name}. 
-          Your current entry count is...`}
+          Your current entry count is: `}
       </div>
       <div className="white f1">{entries}</div>
     </div>
