@@ -1,14 +1,15 @@
-import React from 'react'
+import React from "react";
 
-export const Rank = () => {
-    return (
-        <div>
-            <div className="white f3">
-                {"Hi, your current rank is..."}
-            </div>
-            <div className="white f1">
-                {"#5"}
-            </div>
-        </div>
-    )
-}
+export const Rank = ({ name, entries }) => {
+  console.log("name :>>", name);
+  console.log("entries :>> ", entries);
+  return (
+    <div>
+      <div className="white f3">
+        {`Hi, ${name}. 
+          Your current entry count is...`}
+      </div>
+      <div className="white f1">{entries}</div>
+    </div>
+  );
+};
